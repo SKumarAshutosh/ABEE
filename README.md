@@ -1,2 +1,2 @@
 # COLLABERT
-COLLABERT is a biomedical 
+COLLABERT is a biomedical Repository
