@@ -1,6 +1,6 @@
 # COLLABERT
 COLLABERT is a biomedical Repository
-# CollaboNet: collaboration of deep neural networks for biomedical named entity recognition
+# COLLABERT: collaboration of deep neural networks for biomedical named entity recognition
 
 This project provides a neural network(bi-LSTM + CRF) approach for biomedical Named Entity Recognition.  
 Our implementation is based on the Tensorflow library on python.  
@@ -50,14 +50,14 @@ So we re-generated the dataset from the original corpus by [Kim et al.](http://w
 The details of each dataset is showed below:  
 
 
-|               Corpora               |  Entity type  | No. sentence | No. annotations |     Data Size    |
+|               Corpora               |  Entity type  | No. sentence |  #annotations |     CorporaSize    |
 |:-----------------------------------:|:-------------:|:------------:|:---------------:|:----------------:|
-|  NCBI-Disease (Dogan et al., 2014)  |    Disease    |     7,639    |      6,881      |   793 abstracts  |
+|  BC2GM (Akhondi et al., 2014)       |    Disease    |     7,639    |      6,881      |   793 abstracts  |
 |      JNLPBA (Kim et al., 2004)      | Gene/Proteins |    22,562    |      35,336     |  2,404 abstracts |
-|       BC5CDR (Li et al., 2016)      |   Chemicals   |    14,228    |      15,935     |  1,500 articles  |
+|    NCBI-Disease (Dogan et al., 2014)|   Chemicals   |    14,228    |      15,935     |  1,500 articles  |
 |       BC5CDR (Li et al., 2016)      |    Diseases   |    14,228    |      12,852     |  1,500 articles  |
 | BC4CHEMD (Krallinger et al., 2015a) |   Chemicals   |    86,679    |      84,310     | 10,000 abstracts |
-|     BC2GM (Akhondi et al., 2014)    | Gene/Proteins |    20,510    |      24,583     | 20,000 sentences |
+|     BC5CDR (Li et al., 2016)        | Gene/Proteins |    20,510    |      24,583     | 20,000 sentences |
 
 The datasets are publicly available by executing [download.sh](./download.sh).<!-- and we recommend downloading the datasets to run our code.  -->
 
