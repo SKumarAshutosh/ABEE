@@ -8,7 +8,7 @@ Our implementation is based on the Tensorflow library on python.
   
 * __TITLE__  :  COLLABERT: A Collaborative Bio-BERT For Biomedical Named Entity Recognition
  
-* __AUTHOR__ :  Ashutosh Kumar<sup>1</sup> and Aakanksha Sharaff<sup>2!/sup>,
+* __AUTHOR__ :  Ashutosh Kumar<sup>1</sup> and Aakanksha Sharaff<sup>2</sup>,
     * __Author details__  
     <sup>1</sup> Department of Computer Science and Engineering, National Institute of Technology Raipur, Raipur Chhattisgarh, India  
     <sup>2</sup> Department of Computer Science and Engineering, National Institute of Technology Raipur, Raipur Chhattisgarh, India  
