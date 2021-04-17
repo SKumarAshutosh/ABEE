@@ -1,6 +1,7 @@
 # COLLABERT
 COLLABERT is a biomedical Repository
-# COLLABERT: collaboration of deep neural networks for biomedical named entity recognition
+# COLLABERT: A Collaborative Bio-BERT For Biomedical Named Entity Recognition
+
 
 This project provides a neural network(bi-LSTM + CRF) approach for biomedical Named Entity Recognition.  
 Our implementation is based on the Tensorflow library on python.  
