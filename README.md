@@ -99,7 +99,7 @@ You can also refer to [COLLABERT.sh](./collabert.sh) for detailed usage.
 |:------------------------:|:--------:|:------------:|:------:|:-----------:|:--------------:|:--------:|:-----:|:-------:|
 | Khan et al. (2017) STM | F1 Score |     81.55   |  72.89 |    86.68  |     -  |  - | 89.06|  85.15  |
 | Yoon et al. (2017) STM | F1 Score |     79.73  |  78.58 |    86.36   |      84.08   |   88.85  |93.31 |  82.54  |
-|          **Our COLLABERT**         | F1 Score |     **83.01 **    |  **78.97** |    **87.66**    |      **87.15**     |  **89.50**  | **93.44** |  **86.62**  |
+|          **Our COLLABERT**         | F1 Score |     **83.01**    |  **78.97** |    **87.66**    |      **87.15**     |  **89.50**  | **93.44** |  **86.62**  |
 * Scores in the asterisked (\*) cells are obtained in the experiments that we conducted; these scores are not reported in the original papers.   
 * The best scores from these experiments are in bold.  
 
