@@ -12,8 +12,7 @@ Our implementation is based on the Tensorflow library on python.
     * __Author details__  
     <sup>1</sup> Department of Computer Science and Engineering, National Institute of Technology Raipur, Raipur Chhattisgarh, India  
     <sup>2</sup> Department of Computer Science and Engineering, National Institute of Technology Raipur, Raipur Chhattisgarh, India  
-    <sup>!</sup> Equal contributor  
-
+    
 
 ## Quick Links
 
