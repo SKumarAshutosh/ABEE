@@ -3,15 +3,15 @@ COLLABERT is a biomedical Repository
 # COLLABERT: A Collaborative Bio-BERT For Biomedical Named Entity Recognition
 
 
-This project provides a neural network(bi-LSTM + CRF) approach for biomedical Named Entity Recognition.  
+This project provides a neural network (BioBERT) approach for biomedical Named Entity Recognition.  
 Our implementation is based on the Tensorflow library on python.  
   
-* __TITLE__  :  <a href=https://arxiv.org/abs/1809.07950.pdf>CollaboNet: collaboration of deep neural networks for biomedical named entity recognition</a><br>
- \* *Accepted for CIKM 2018 workshop - ACM 12th International Workshop on Data and Text Mining in Biomedical Informatics (DTMBIO2018).* 
-* __AUTHOR__ :  Wonjin Yoon<sup>1!</sup>, Chan Ho So<sup>2!</sup>, Jinhyuk Lee<sup>1</sup> and Jaewoo Kang<sup>1\*</sup>
+* __TITLE__  :  COLLABERT: A Collaborative Bio-BERT For Biomedical Named Entity Recognition
+ 
+* __AUTHOR__ :  Ashutosh Kumar<sup>1</sup> and Aakanksha Sharaff<sup>2!/sup>,
     * __Author details__  
-    <sup>1</sup> Department of Computer Science and Engineering, Korea University  
-    <sup>2</sup> Interdisciplinary Graduate Program in Bioinformatics, Korea University  
+    <sup>1</sup> Department of Computer Science and Engineering, National Institute of Technology Raipur, Raipur Chhattisgarh, India  
+    <sup>2</sup> Department of Computer Science and Engineering, National Institute of Technology Raipur, Raipur Chhattisgarh, India  
     <sup>!</sup> Equal contributor  
 
 
@@ -24,17 +24,12 @@ Our implementation is based on the Tensorflow library on python.
 - [Performance](#performance)
 
 ## Requirements
-At least one CUDA compatible GPU device is strongly recommanded for execution of this project codes.  
-python 2.7  
-numpy 1.14.2  
-tensorflow-gpu 1.7.0  
-
+At least one CUDA compatible GPU (NVIDIA GTX) device is strongly recommanded for execution of this project codes.  
+python 3.4 
+numpy 1.20.0  
+tensorflow-gpu 2.4.1  
 ### License
-The code is distributed under [MIT license](./LICENSE.md).  <br>
-__Citeable paper can be found at pre-print server <a href=https://arxiv.org/abs/1809.07950.pdf>[here]</a>__ <br>
-<br>
-This software includes third party software.<br>
-See <a href=./License-thirdparty.txt>License-thirdparty.txt</a> for details.  
+The code is distributed under NIT Raipur
 
 ## Model
 **[LEFT]** Character level word embedding using CNN and overview of Bidirectional LSTM with Conditional Random Field (BiLSTM-CRF).  
@@ -51,14 +46,14 @@ So we re-generated the dataset from the original corpus by [Kim et al.](http://w
 The details of each dataset is showed below:  
 
 
-|               Corpora               |  Entity type  | No. sentence |  #annotations |     CorporaSize    |
+|               Corpora               |  Entity type  | CorporaSize  |  #annotations |     #sentence    |
 |:-----------------------------------:|:-------------:|:------------:|:---------------:|:----------------:|
-|  BC2GM (Akhondi et al., 2014)       |    Disease    |     7,639    |      6,881      |   793 abstracts  |
-|      JNLPBA (Kim et al., 2004)      | Gene/Proteins |    22,562    |      35,336     |  2,404 abstracts |
-|    NCBI-Disease (Dogan et al., 2014)|   Chemicals   |    14,228    |      15,935     |  1,500 articles  |
-|       BC5CDR (Li et al., 2016)      |    Diseases   |    14,228    |      12,852     |  1,500 articles  |
-| BC4CHEMD (Krallinger et al., 2015a) |   Chemicals   |    86,679    |      84,310     | 10,000 abstracts |
-|     BC5CDR (Li et al., 2016)        | Gene/Proteins |    20,510    |      24,583     | 20,000 sentences |
+|  BC2GM (Akhondi et al., 2014)       | Gene/Proteins | 20,000 Sentences    |     24,583      |   20,510  |
+|      JNLPBA (Kim et al., 2004)      | Gene/Proteins |    2,404 abstracts    |      35,336     |  22,562 |
+|    NCBI-Disease (Dogan et al., 2014)|    Diseases   |    793 abstracts    |      6,881     |  7,639  |
+|       BC5CDR (Li et al., 2016)      |    Diseases   |    1,500 articles    |      12,852     |  14,228  |
+| BC4CHEMD (Krallinger et al., 2015a) |   Chemicals   |    10,000 abstracts    |      84,310     | 86,679 |
+|     BC5CDR (Li et al., 2016)        |   Chemicals   |    1,500 articles    |      15,935    | 14,228 |
 
 The datasets are publicly available by executing [download.sh](./download.sh).<!-- and we recommend downloading the datasets to run our code.  -->
 
