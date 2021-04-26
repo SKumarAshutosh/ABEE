@@ -31,9 +31,9 @@ tensorflow-gpu 2.4.1
 The code is distributed under NIT Raipur
 
 ## Model
-**[LEFT]** Character level word embedding using CNN and overview of Bidirectional LSTM with Conditional Random Field (BiLSTM-CRF).  
-**[RIGHT]** Structure of CollaboNet when Gene model act as a role of target model. Rhombus represents the CRF layer. Arrows show the flow of information when target model is training. Dashed arrows mean that information is not flowing when target model is under training.  
-![Model](http://wonjin.info/file/model_tot.png)
+**[LEFT]** BERT model is used as a single taks learning model.  
+**[RIGHT]** COLLABERT a multi task learning model  is a combination of differnt single task model.  
+![Model](https://github.com/google-research/bert)
 
 ## Data
 ### Train, Test Data
